@@ -44,7 +44,7 @@ cover: assets/hero.jpg
                             {% endfor %}
                         {% endif %}
                     </div>
-                    <time class="post-date" datetime="{{ post.date | date:"%y-%m-%d" }}">{{ post.date | date_to_string }}</time>
+                    <time class="post-date" datetime="{{ post.date | date:"%y-%m-%d" }}">{{ post.date | date: "%Y-%m-%d" }}</time>
                 </footer>
             </article>
         {% endfor %}
