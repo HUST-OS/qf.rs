@@ -131,7 +131,10 @@ a {
   position: relative;
   text-align: center;
   overflow: hidden;
-  box-shadow: 0 4px 20px rgba(0, 38, 55, 0.16); }
+  box-shadow: 0 4px 20px rgba(0, 38, 55, 0.16); 
+  background-image:url('/assets/img/home.jpg');
+  background-repeat:no-repeat;
+  background-position:right top;}
   .home-banner h2, .home-banner h3 {
     position: relative;
     z-index: 1;
