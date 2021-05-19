@@ -623,8 +623,7 @@ a {
   box-sizing: border-box;
   padding: 0 0 32px; }
   .markdown-body .highlight {
-    margin: 0 0 16px;
-    overflow: scroll; }
+    margin: 0 0 16px; }
   .markdown-body img {
     transition: .3s; }
   .markdown-body ul li p, .markdown-body ol li p {
