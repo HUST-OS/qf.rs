@@ -131,10 +131,7 @@ a {
   position: relative;
   text-align: center;
   overflow: hidden;
-  box-shadow: 0 4px 20px rgba(0, 38, 55, 0.16); 
-  background-image:url('/assets/img/home.jpg');
-  background-repeat:no-repeat;
-  background-position:center center;}
+  box-shadow: 0 4px 20px rgba(0, 38, 55, 0.16);}
   .home-banner h2, .home-banner h3 {
     position: relative;
     z-index: 1;
@@ -153,17 +150,15 @@ a {
     letter-spacing: 10px;
     margin-top: 8px; }
 
-.banner-theme-default {
-  background: -webkit-linear-gradient(0deg, #3CD5FF, #007AFF);
-  background: -o-linear-gradient(0deg, #3CD5FF, #007AFF);
-  background: -moz-linear-gradient(0deg, #3CD5FF, #007AFF);
-  background: linear-gradient(100deg, #3CD5FF, #007AFF); }
+.banner-theme-default { 
+  background-image:url('/assets/img/home.jpg');
+  background-repeat:no-repeat;
+  background-position:center center; }
 
-.banner-theme-pink {
-  background: -webkit-linear-gradient(0deg, #FFCE69, #FA709A);
-  background: -o-linear-gradient(0deg, #FFCE69, #FA709A);
-  background: -moz-linear-gradient(0deg, #FFCE69, #FA709A);
-  background: linear-gradient(100deg, #FFCE69, #FA709A); }
+.banner-theme-pink { 
+  background-image:url('/assets/img/home.jpg');
+  background-repeat:no-repeat;
+  background-position:center center;}
 
 .themeColor-default {
   background-color: #1494FB; }

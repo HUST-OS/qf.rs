@@ -6,9 +6,8 @@ description: 明德 厚学 求是 创新
 
 {% include header.html %}
 
-<!--  class = .... {{ site.theme-color | prepend: 'banner-theme-' }} -->
 <div
-    class="g-banner home-banner" 
+    class="g-banner home-banner {{ site.theme-color | prepend: 'banner-theme-' }}" 
     data-theme="{{ site.theme-color }}"
     style="{% if page.header-img %}background: url({{ page.header-img | relative_url }}) no-repeat center center; background-size: cover;{% endif %}"
 >
