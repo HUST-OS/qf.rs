@@ -14,9 +14,9 @@
  </defs>
  <g>
   <title>Layer 1</title>
-  <rect id="svg_2" height="25" width="25" y="9.0" x="19.0" stroke-width="3" stroke="#fff" fill="url(#lg1)"/>
-  <rect id="svg_3" height="25" width="25" y="3.0" x="50.0" stroke-width="3" stroke="#fff" fill="url(#lg1)"/>
-  <rect id="svg_5" height="25" width="25" y="40.0" x="25.0" stroke-width="3" stroke="#fff" fill="url(#lg1)"/>
-  <rect id="svg_6" height="25" width="25" y="35.0" x="56.0" stroke-width="3" stroke="#fff" fill="url(#lg1)"/>
+  <rect id="svg_2" height="28" width="28" y="6.0" x="16.5" stroke-width="3" stroke="#fff" fill="url(#lg1)"/>
+  <rect id="svg_3" height="28" width="28" y="0.0" x="45.5" stroke-width="3" stroke="#fff" fill="url(#lg1)"/>
+  <rect id="svg_5" height="28" width="28" y="34.0" x="22.5" stroke-width="3" stroke="#fff" fill="url(#lg1)"/>
+  <rect id="svg_6" height="28" width="28" y="29.0" x="51.5" stroke-width="3" stroke="#fff" fill="url(#lg1)"/>
  </g>
 </svg>
