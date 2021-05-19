@@ -1,17 +1,18 @@
-<svg width="98" height="68" xmlns="http://www.w3.org/2000/svg">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="99px" height="67px" viewBox="0 0 99 67" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
  <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
- <g>
-  <title>background</title>
-  <rect fill="#00000000" id="canvas_background" height="70" width="100" y="-1" x="-1"/>
-  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
-   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
-  </g>
- </g>
+ <defs>        
+  <filter id="f1" x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox">
+   <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+   <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+   <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.236384737 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+  </filter>
+ </defs>
  <g>
   <title>Layer 1</title>
-  <rect id="svg_2" height="25" width="25" y="9.0" x="19.0" stroke-width="1.5" stroke="#fff" fill="#00000000"/>
-  <rect id="svg_3" height="25" width="25" y="3.0" x="50.0" stroke-width="1.5" stroke="#fff" fill="#00000000"/>
-  <rect id="svg_5" height="25" width="25" y="40.0" x="25" stroke-width="1.5" stroke="#fff" fill="#00000000"/>
-  <rect id="svg_6" height="25" width="25" y="35.0" x="56" stroke-width="1.5" stroke="#fff" fill="#00000000"/>
+  <rect id="svg_2" height="25" width="25" y="9.0" x="19.0" filter="url(#f1)" stroke-width="1.5" stroke="#fff" fill="#00000000"/>
+  <rect id="svg_3" height="25" width="25" y="3.0" x="50.0" filter="url(#f1)" stroke-width="1.5" stroke="#fff" fill="#00000000"/>
+  <rect id="svg_5" height="25" width="25" y="40.0" x="25.0" filter="url(#f1)" stroke-width="1.5" stroke="#fff" fill="#00000000"/>
+  <rect id="svg_6" height="25" width="25" y="35.0" x="56.0" filter="url(#f1)" stroke-width="1.5" stroke="#fff" fill="#00000000"/>
  </g>
 </svg>
