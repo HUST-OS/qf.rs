@@ -18,6 +18,7 @@ baseurl: ''
 nav:
   主页: '/'
   标签: '/tags.html'
+  RV工具: 'https://rvgj.qf.rs' 
 
 # Footer
 footer:
