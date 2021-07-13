@@ -18,7 +18,8 @@ baseurl: ''
 nav:
   主页: '/'
   标签: '/tags.html'
-  RV工具: 'https://rvgj.qf.rs' 
+  工具箱: 'https://rvgj.qf.rs' 
+  招新: 'https://yiqi.qf.rs' 
 
 # Footer
 footer:
